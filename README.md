@@ -191,13 +191,12 @@ published inputs.
 If you use this code or data, please cite this archive (metadata in
 `CITATION.cff`):
 
-> Skitsko, V., Voinikov, M., & Pawłyszyn, I. (YEAR). _Simulation of
+> Skitsko, V., Voinikov, M., & Pawłyszyn, I. (2026). _Simulation of
 > information system states for reliability assessment: code and data_
-> (Version 1.0.0) [Software]. Zenodo. https://doi.org/ZENODO_DOI
+> (Version 1.0.0) [Software]. Zenodo. https://doi.org/10.5281/zenodo.23348769
 
-YEAR and ZENODO_DOI are placeholders to be completed on release. Cite the DOI
-of this version rather than the concept DOI, which always resolves to the
-latest version.
+Cite the DOI of this version rather than the concept DOI, which always
+resolves to the latest version.
 
 ## License
 

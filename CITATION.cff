@@ -1,5 +1,4 @@
-# Complete before the release: date-released. After the article is
-# published, add it under preferred-citation.
+# After the article is published, add it under preferred-citation.
 cff-version: 1.2.0
 title: >-
   Simulation of information system states for reliability assessment:
@@ -50,3 +49,5 @@ license:
   - MIT
   - CC-BY-4.0
 version: 1.0.0
+doi: 10.5281/zenodo.23348769
+date-released: 2026-10-13
