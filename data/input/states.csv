@@ -1,0 +1,6 @@
+state_id,state_code,state_name,is_functionally_available,state_cost_rate_mu_per_hour
+1,S1,Normal operating state,1,0.0
+2,S2,Degraded operating state,1,25.0
+3,S3,Partial failure state,0,130.0
+4,S4,Critical failure state,0,550.0
+5,S5,Recovery state,0,100.0

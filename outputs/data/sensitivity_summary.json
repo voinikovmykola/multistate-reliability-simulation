@@ -1,0 +1,16 @@
+{
+  "accepted_scenario_range": 0.2,
+  "num_scenarios": 14,
+  "num_runs_r": 3000,
+  "num_scenarios_with_a2_first": 14,
+  "scenarios_where_ranking_changes": [],
+  "min_net_economic_benefit_of_a2_mu_per_year": 95806.57866666678,
+  "max_exceedance_probability_of_a2": 0.0,
+  "max_exceedance_probability_of_a0": 1.0,
+  "min_exceedance_probability_of_a0": 0.6836666666666666,
+  "ranking_margin_a2_over_a1_mu_per_year": 24989.630333333334,
+  "break_even_annualized_cost_of_a2_mu_per_year": 36489.630333333334,
+  "break_even_annualized_cost_factor": 3.1730113333333336,
+  "break_even_expected_annual_loss_of_a2_mu": 37325.17116666667,
+  "break_even_expected_annual_loss_factor": 3.0258236481862135
+}

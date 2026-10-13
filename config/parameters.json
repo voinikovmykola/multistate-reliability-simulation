@@ -1,0 +1,35 @@
+{
+  "units": {
+    "monetary": "MU (illustrative monetary units)",
+    "note": "Monetary values are expressed in illustrative monetary units (MU). They are expert-specified parameters rather than measurements obtained from a real organization, and are stated as round figures at the scale at which such costs are typically estimated. Because all monetary quantities share the same unit, every ratio, every comparison between architectures and the sign of the net economic benefit are independent of the chosen scale.",
+    "time": "hour; one simulation time step = 1 hour"
+  },
+  "experiment": {
+    "horizon_hours": 8760,
+    "time_step_hours": 1,
+    "num_runs": 3000,
+    "pilot_num_runs": 1000,
+    "checked_run_counts": [
+      500,
+      1000,
+      2000,
+      3000,
+      5000
+    ],
+    "main_random_seed": 42,
+    "pilot_random_seed": 2025,
+    "initial_state": "S1",
+    "functionally_available_states": [
+      "S1",
+      "S2"
+    ]
+  },
+  "criteria": {
+    "confidence_level": 0.95,
+    "z_value": 1.96,
+    "target_relative_margin_of_error": 0.05,
+    "stabilization_threshold": 0.01,
+    "acceptable_annual_loss_threshold_mu": 110000,
+    "note": "The target relative margin of error (0.05), the 1% stabilization threshold and the acceptable annual loss threshold L_allow are accepted criteria of this study, not universal constants. L_allow = 110000 MU per year is the expert-specified threshold against which the loss-threshold exceedance probability P(L > L_allow) is reported; in practice it is the annual loss level an organization declares tolerable, so it must be re-declared here before that probability is interpreted."
+  }
+}

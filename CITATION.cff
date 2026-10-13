@@ -1,0 +1,52 @@
+# Complete before the release: date-released. After the article is
+# published, add it under preferred-citation.
+cff-version: 1.2.0
+title: >-
+  Simulation of information system states for reliability assessment:
+  code and data
+message: If you use this code or data, please cite this archived release.
+type: software
+authors:
+  - given-names: Volodymyr
+    family-names: Skitsko
+    orcid: https://orcid.org/0000-0002-6290-9194
+    affiliation: >-
+      Department of Artificial Intelligence, Modeling and Statistics, Kyiv
+      National Economic University named after Vadym Hetman
+  - given-names: Mykola
+    family-names: Voinikov
+    orcid: https://orcid.org/0000-0001-7961-5312
+    affiliation: >-
+      Department of Computer Science, Kyiv National Economic University named
+      after Vadym Hetman
+  - given-names: Irena
+    family-names: Pawłyszyn
+    orcid: https://orcid.org/0000-0002-5054-6314
+    email: irena.pawlyszyn@put.poznan.pl
+    affiliation: >-
+      Faculty of Engineering Management, Poznan University of Technology
+abstract: >-
+  Code, synthetic input data, and results for a simulation-based economic
+  evaluation of information system reliability. The system is represented by
+  five mutually exclusive states with an admissible transition matrix and a
+  transition probability matrix per architecture; economic losses are
+  accumulated along simulated hourly system state trajectories using state-specific
+  cost rates scaled by a time-dependent business criticality coefficient. The
+  repository reproduces the estimated expected economic losses, loss quantiles,
+  generalized multi-state availability, empirical exceedance frequencies, net economic
+  benefit, the choice of the number of simulation runs, and the sensitivity
+  analysis and Figs. 2-4 of the article. All parameters are synthetic and
+  expressed in illustrative monetary units.
+keywords:
+  - information system
+  - reliability
+  - simulation modeling
+  - multi-state model
+  - economic losses
+  - availability
+  - net economic benefit
+repository-code: https://github.com/voinikovmykola/multistate-reliability-simulation
+license:
+  - MIT
+  - CC-BY-4.0
+version: 1.0.0

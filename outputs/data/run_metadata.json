@@ -1,0 +1,26 @@
+{
+  "package_version": "1.0.0",
+  "python_version": "3.13.9",
+  "numpy_version": "2.5.2",
+  "pandas_version": "3.0.5",
+  "horizon_hours": 8760,
+  "num_runs": 5000,
+  "random_seed": 42,
+  "checked_run_counts": [
+    500,
+    1000,
+    2000,
+    3000,
+    5000
+  ],
+  "input_file_sha256_prefixes": {
+    "admissible_transitions.csv": "bae2c9ec476b6516",
+    "architectures.csv": "3da254aa00a115c2",
+    "business_criticality_profile.csv": "fa421301afc650bd",
+    "states.csv": "3bbeb46d6aae4943",
+    "transition_probability_matrix_a0.csv": "9dac7fec42afb8eb",
+    "transition_probability_matrix_a1.csv": "a723006e6f53dce4",
+    "transition_probability_matrix_a2.csv": "7d741c2a64b99cb2",
+    "parameters.json": "be41c26109f44442"
+  }
+}

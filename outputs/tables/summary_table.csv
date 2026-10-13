@@ -1,0 +1,4 @@
+architecture_id,architecture_name,generalized_availability_pct,downtime_hours_per_year,expected_annual_loss_mu,loss_quantile_095_mu,loss_quantile_099_mu,loss_exceedance_probability,annualized_cost_mu_per_year,net_economic_benefit_mu_per_year
+A0,A0 - Baseline architecture,92.71081050228311,638.533,146468.76416666678,175678.32500000004,187196.1050000003,0.9923333333333333,0.0,
+A1,A1 - Hot-standby architecture,97.7966514459665,193.01333333333332,44825.17116666667,58083.575000000004,64185.11499999999,0.0,4000.0,97643.59300000011
+A2,A2 - Fault-tolerant architecture with automatic failover,99.39551369863014,52.95299999999998,12335.540833333333,18035.599999999995,20952.53,0.0,11500.0,122633.22333333344

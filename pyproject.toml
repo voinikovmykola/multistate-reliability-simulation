@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "multistate-reliability"
+version = "1.0.0"
+description = "Simulation of information-system states for reliability assessment"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+authors = [
+  { name = "Volodymyr Skitsko" },
+  { name = "Mykola Voinikov" },
+  { name = "Irena Pawłyszyn", email = "irena.pawlyszyn@put.poznan.pl" },
+]
+dependencies = ["numpy", "pandas", "matplotlib"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

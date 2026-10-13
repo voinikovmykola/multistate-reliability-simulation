@@ -1,0 +1,4 @@
+architecture_id,architecture_name,annualized_cost_mu_per_year,architecture_description
+A0,Baseline architecture,0.0,Baseline configuration without redundancy.
+A1,Hot-standby architecture,4000.0,A standby server kept synchronized with the production server.
+A2,Fault-tolerant architecture with automatic failover,11500.0,A redundant node with automatic failover on failure detection.

@@ -1,0 +1,10 @@
+The input data (data/input/), the configuration (config/parameters.json), the
+generated results (outputs/), the figure docs/state_transition_graph.png and
+the documentation are licensed under the Creative Commons Attribution 4.0
+International License (CC BY 4.0).
+
+To view a copy of this license, visit
+https://creativecommons.org/licenses/by/4.0/
+
+The source code (src/, scripts/, tests/) is licensed under the MIT License,
+see LICENSE.

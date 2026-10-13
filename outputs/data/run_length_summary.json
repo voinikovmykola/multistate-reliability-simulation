@@ -1,0 +1,8 @@
+{
+  "min_required_runs_from_formula": 103,
+  "first_num_runs_meeting_stabilization_criterion": 3000,
+  "adopted_num_runs": 3000,
+  "max_relative_margin_of_error_at_adopted_runs_pct": 0.9046693651909178,
+  "acceptable_annual_loss_threshold_mu": 110000,
+  "units": "MU (illustrative monetary units)"
+}
